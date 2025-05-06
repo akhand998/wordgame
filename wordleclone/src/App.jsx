@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100 p-4">
       <div className="bg-white shadow-lg p-6 rounded w-full max-w-md text-center">
-        <h1 className="text-2xl font-bold mb-4">Wordle Clone</h1>
+        <h1 className="text-2xl font-bold mb-4">Wordzzle</h1>
         <GuessResult guesses={guesses} solution={targetWord} />
         {guesses.includes(targetWord) ? (
           <div className="mt-4 text-green-600 font-semibold">You guessed it!</div>
